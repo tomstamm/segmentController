@@ -14,6 +14,7 @@
 		F86CDC6823B18296004A8BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86CDC6623B18296004A8BAE /* Main.storyboard */; };
 		F86CDC6A23B18297004A8BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86CDC6923B18297004A8BAE /* Assets.xcassets */; };
 		F86CDC6D23B18297004A8BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86CDC6B23B18297004A8BAE /* LaunchScreen.storyboard */; };
+		F86CDC7523B28940004A8BAE /* UBSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86CDC7423B28940004A8BAE /* UBSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F86CDC6923B18297004A8BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F86CDC6C23B18297004A8BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F86CDC6E23B18297004A8BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86CDC7423B28940004A8BAE /* UBSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F86CDC6923B18297004A8BAE /* Assets.xcassets */,
 				F86CDC6B23B18297004A8BAE /* LaunchScreen.storyboard */,
 				F86CDC6E23B18297004A8BAE /* Info.plist */,
+				F86CDC7423B28940004A8BAE /* UBSegmentedControl.swift */,
 			);
 			path = segmentController2;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86CDC7523B28940004A8BAE /* UBSegmentedControl.swift in Sources */,
 				F86CDC6523B18296004A8BAE /* SecondViewController.swift in Sources */,
 				F86CDC6323B18296004A8BAE /* FirstViewController.swift in Sources */,
 				F86CDC5F23B18296004A8BAE /* AppDelegate.swift in Sources */,
